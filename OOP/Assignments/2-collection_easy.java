@@ -115,6 +115,9 @@ public class main {
 					break;
 				case 4:
 					viewResults();
+					valid = false;
+					scan.nextLine();
+					System.exit(0); // exit program succesfully (similar to exit(0) in C)
 					break;
 			}
 		}
