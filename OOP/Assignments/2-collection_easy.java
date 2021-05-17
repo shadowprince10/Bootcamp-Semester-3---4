@@ -117,7 +117,7 @@ public class main {
 					viewResults();
 					valid = false;
 					scan.nextLine();
-					System.exit(0); // exit program succesfully (similar to exit(0) in C)
+					System.exit(0); // exit program successfully (similar to exit(0) in C)
 					break;
 			}
 		}
