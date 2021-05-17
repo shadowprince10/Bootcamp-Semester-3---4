@@ -54,7 +54,7 @@ public class main {
 				shareNumber = scan.nextInt(); scan.nextLine();
 			} while (shareNumber < 0 || shareNumber > 100);
 			
-			scan.close();
+			// scan.close();
 		}
 		
 	}
